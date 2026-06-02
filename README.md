@@ -92,12 +92,4 @@ document-auditor/
 
 ---
 
-## Note
 
-This repository contains a simplified version of the pipeline. Client implementations include additional features not published here, including custom data source integrations, expanded claim classification schemas, and tailored reporting layers.
-
----
-
-## Built by
-
-[Exoreach](https://exoreach.co.uk) — AI workflow consulting for SMEs
