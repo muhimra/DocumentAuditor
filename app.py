@@ -396,12 +396,12 @@ if 'results' in st.session_state:
         mime="application/json"
     )
 
-    st.markdown('<p style="font-family:JetBrains Mono,monospace;font-size:0.65rem;color:#333;text-align:center;margin-top:1rem;">Exoreach · Claude API (Haiku + Sonnet) · Web search</p>', unsafe_allow_html=True)
+    st.markdown('<p style="font-family:JetBrains Mono,monospace;font-size:0.65rem;color:#333;text-align:center;margin-top:1rem;"> · Claude API (Haiku + Sonnet) · Web search</p>', unsafe_allow_html=True)
 
 else:
     st.markdown("""
     <div style="text-align:center;padding:4rem 2rem;color:#444;">
         <p style="font-size:2rem;">🔍</p>
-        <p style="font-family:JetBrains Mono,monospace;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;">Upload a PDF and enter a client name to begin</p>
+        <p style="font-family:JetBrains Mono,monospace;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;">Upload a PDF and enter a name to begin</p>
     </div>
     """, unsafe_allow_html=True)
